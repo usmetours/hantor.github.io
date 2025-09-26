@@ -2,8 +2,8 @@
    RESET GENERAL
    ================================ */
 * {
-  margin: auto;
-  padding: auto;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -508,5 +508,6 @@ footer p {
   50% { transform: scale(1.08); }
   100% { transform: scale(1); }
 }
+
 
 
