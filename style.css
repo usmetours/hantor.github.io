@@ -291,7 +291,7 @@ footer p {
    PRESENTACIÓN (Inicio)
    ================================ */
 .presentacion {
-  display: auto;
+  display: flex;
   grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
   align-items: center;
   gap: 30px;
@@ -508,3 +508,4 @@ footer p {
   50% { transform: scale(1.08); }
   100% { transform: scale(1); }
 }
+
