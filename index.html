@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pagina Web</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/Style2.css">
+  <link rel="stylesheet" href="css/style3.css">
+  
+<!--Estilos solo para la galería de productos */-->
+<style>
+.section {
+    display: contents;
+    width: 600px;
+    height: 430px;
+    margin-top: 40px auto;
+    overflow: hidden;
+    border-radius: 10px;
+
+}
+.section img {
+    width: 450px;
+    flex-grow: 1;
+    object-fit:cover  ;
+    opacity: .8;
+    transition: .5s ease;
+}
+.section img:hover {
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+</style>
+  
+</head>
+<body >
+  
+
+  <!-- Encabezado principal -->
+<header>
+  <div class="navbar">
+    <div class="logo">
+      <img src="img/logo.png" width="100" alt="Logo Hantor">
+    </div>
+    <nav>
+  <ul>
+    <li><a href="index.html">Inicio</a></li>
+    <li><a href="pages/nosotros.html">Nosotros</a></li>
+    <li><a href="pages/servicios.html">Servicios</a></li>
+    <li><a href="pages/contacto.html">Contacto</a></li>
+  </ul>
+</nav>
+  </div>
+  
+</header>
+
+  <!-- Contenido principal -->
+<main>
+  <!-- Sección de presentación -->
+  <section id="inicio" style="padding: 60px 20px; background: #f4f4f9; font-family: Arial, sans-serif;">
+    <div style="max-width: 1200px; margin: auto; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 30px;">
+      
+      <!-- Texto -->
+      <div style="flex: 1; min-width: 300px;">
+        <h2 style="font-size: 2.2rem; color: #222; margin-bottom: 20px;">
+          Bienvenido a <span style="color: #7300e6;">Hantor</span>
+        </h2>
+        <p style="font-size: 1.1rem; color: #444; line-height: 1.6; margin-bottom: 30px;">
+          En <strong>Hantor</strong>, nuestra misión es formar conductores responsables y seguros en Colombia.
+          Ofrecemos programas personalizados para aprender a conducir motos y carros, con la guía de instructores
+          certificados y el uso de tecnología avanzada como simuladores y aulas digitales. Nuestros cursos tienen
+          horarios flexibles para adaptarse a cada persona, y te acompañamos en todo el proceso hasta obtener tu licencia,
+          garantizando una formación de calidad.
+        </p>
+
+        <!-- Botones -->
+        <div style="display: flex; gap: 15px;">
+          <a href="#servicios" class="btn">Nuestros Servicios</a>
+          <a href="#Galeria" class="btn">Galería ❤️</a>
+        </div>
+      </div>
+
+      <!-- Imagen -->
+      <div style="flex: 1; min-width: 250px; text-align: center;">
+        <img src="img/logo.png" width="250" alt="Logo Hantor" style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+      </div>
+
+    </div>
+  </section>
+</main>
+
+<!-- Estilos de botones -->
+<style>
+  .btn {
+    display: inline-block;
+    padding: 12px 20px;
+    background: #7700e6;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 12px;
+    text-decoration: none;
+    transition: background 0.3s ease, transform 0.2s ease;
+  }
+  .btn:hover {
+    background: #005bb5;
+    transform: translateY(-2px);
+  }
+</style>
+
+   
+    <!-- Sección sobre el equipo o la misión -->
+
+    <!-- Carta 1 -->
+     <section id="card">
+    <section id="nosotros">
+      <h2 class="titulo-nosotros"> Sobre Nosotros</h2>
+      <div class="contenedor-nosotros">
+
+   
+   <!-- Carta 2 -->
+    <div class="contenedor-nosotros">
+    <div class="card-nosotros">
+      <div class="icono">
+        <i class="fas fa-vr-cardboard"></i>
+      </div>
+      <h3>Misión y Visión</h3>
+      <p><b><ul>
+        🚗 Nuestra Misión
+
+En Hantor formamos conductores responsables y seguros mediante un proceso de enseñanza moderno, práctico y personalizado.
+ Nuestro objetivo es que cada estudiante adquiera las habilidades necesarias para conducir,
+  junto con la cultura vial y el respeto ciudadano que transforman la movilidad en nuestra ciudad.
+🌟 Nuestra Visión
+Para el año 2030, en Hantor seremos reconocidos como una de las academias de conducción más importantes de Bogotá y de Colombia.
+ Queremos crecer, innovar y aportar a la formación de una nueva generación de conductores que manejen con confianza, respeto y responsabilidad.
+      </b></ul></p>
+    </div>
+    </div>
+     
+      
+    
+     <!-- Carta 3 -->
+      <div class="contenedor-nosotros">
+    <div class="card-nosotros">
+      <div class="icono">
+        <i class="fas fa-clock"></i>
+      </div>
+      <h3>Nuestros Valores</h3>
+      <p> 
+       <b> En Hantor nos guiamos por principios que hacen la diferencia en cada clase:
+
+<li>✅ Responsabilidad – Fomentamos una conducción consciente y segura.</li>
+<li>✅ Respeto – Promovemos la tolerancia y la convivencia en la vía.</li>
+<li>✅ Seguridad – La protección de la vida siempre es lo primero.</li>
+<li>✅ Innovación – Métodos modernos y efectivos de enseñanza.</li>
+<li>✅ Compromiso – Acompañamos a cada estudiante en todo su proceso.</li>
+       </b>
+      </p>
+    </div>
+      </div>
+  </div>
+</section>
+
+    
+    
+    
+    <!-- Sección de servicios o productos -->
+
+    
+    <section id="servicios">
+    <h2  class="titulo-servicios"> Nuestros Servicios</h2>
+    <div class="contenedor-servicios">
+      
+      <div class="card-servicio">
+        <h3>Servicio 1</h3>
+        <p><b> Curso Básico de Conducción – “Tu Primera Ruta”
+
+Pensado para quienes nunca han conducido.
+Incluye:</b><b>
+<ul>
+<li>teóricas sobre normas de tránsito, señalización y seguridad vial.</li>
+<li>Prácticas personalizadas desde lo más básico (arranque, freno, parqueo).</li>
+<li>Simulaciones de tráfico real en Bogotá con acompañamiento del instructor.</li>
+<li>Preparación para el examen teórico y práctico de conducción.</li>
+</ul>
+👉 Ideal para estudiantes y principiantes que buscan obtener su primera licencia con confianza.</b></p>
+      </div>
+
+      <div class="card-servicio">
+    
+        <h3>Servicio 2</h3>
+        <p><b>
+          2. Curso de Perfeccionamiento y Confianza – “Conduce Seguro”
+
+Enfocado en personas que ya tienen licencia pero sienten inseguridad al manejar en Bogotá o desean mejorar sus habilidades.
+Incluye:
+<ul>
+<li>Clases de refuerzo en parqueo, giros, pendientes y manejo en tráfico denso.</li>
+<li>Técnicas de conducción defensiva y prevención de accidentes.</li>
+<li>Sesiones en horarios de tráfico real para ganar confianza.</li>
+<li>Evaluación personalizada y retroalimentación en cada práctica.</li>
+</ul></b>
+</p>    
+</div>
+
+    </div>
+    </section>
+    
+ <!--fotoss-->
+  
+    <section id="Galeria"></section><section class="section">
+    <div style="text-align: center;">
+  <img src="C:\Users\ESTUDIANTE\Desktop\Img Hantor\Ki1d5OqoQeukYv4N3C6whQ.jpg" alt="200">
+  <img src="C:\Users\ESTUDIANTE\Desktop\Img Hantor\DjQ5Ox2EQAe-7R9EDzUzyQ.webp" alt="200">
+  <img src="C:\Users\ESTUDIANTE\Desktop\Img Hantor\KrqOgOawTC-5WdhhlGQutQ.jpg" alt="200">
+  <img src="C:\Users\ESTUDIANTE\Desktop\Img Hantor\SKKeXPcJTZ-6wywMgcI49Q.webp" alt="200">
+   </div>
+</section>
+     
+</main>
+  <!-- Pie de página -->
+  <footer>
+    <p>&copy; Hantor 2025 - Todos los derechos reservados ||
+      Arnold Bonilla - Marcela Acosta - Eduar Saavedra - 2025
+    </p>
+    
+  </footer>
+<script src="https://unpkg.com/scrollreveal"></script>
+
+</body>
+<script src="js/script.js"></script>
+<script>
+  ScrollReveal().reveal('.card-nosotros', {
+    duration: 1000,      // duración en ms
+    distance: '50px',    // qué tanto se mueve
+    origin: 'bottom',    // desde dónde aparece (bottom, top, left, right)
+    interval: 200,       // retraso entre cartas
+    reset: false         // true = se repite al hacer scroll, false = solo 1 vez
+  });
+</script>
+
+
+</html>

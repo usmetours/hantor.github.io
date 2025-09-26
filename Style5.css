@@ -1,0 +1,17 @@
+body {
+  background: url("https://e0.pxfuel.com/wallpapers/804/685/desktop-wallpaper-cats-and-dogs-cute-dog-and-cat.jpg") center/cover fixed no-repeat;
+  position: relative;
+}
+
+
+/* Overlay oscuro para contraste */
+body::before {
+  content: "";
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0,0,0,0.25);
+  z-index: -1;
+}
+
+
