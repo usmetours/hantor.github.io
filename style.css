@@ -300,8 +300,8 @@ footer p {
   display: flex;
   grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
   align-items: center;
-  gap: 30%;
-  padding: 60% 20%;
+  gap: 30px;
+  padding: 60px 20px;
   background: linear-gradient(135deg, #f9f9f9dd, #d6cdcd);
   border-radius: 15%;
   box-shadow: 0 5px 20px rgba(0,0,0,0.1);
@@ -355,7 +355,7 @@ footer p {
    NOSOTROS
    ================================ */
 #nosotros {
-  padding: 60% 20%;
+  padding: 60px 20px;
   background: #f9f9f9dd;
   text-align: center;
 }
@@ -372,7 +372,7 @@ footer p {
 .contenedor-nosotros {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 40%;
+  gap: 40px;
   max-width: 1200px;
   margin: 0 auto;
   padding: 40px 20px;
@@ -514,6 +514,7 @@ footer p {
   50% { transform: scale(1.08); }
   100% { transform: scale(1); }
 }
+
 
 
 
