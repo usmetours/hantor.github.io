@@ -53,7 +53,7 @@ header {
   background: #000000;
   color: #d504ff;
   padding: 10px 10px;
-  position: fixed;
+  position: auto;
   top: 0;
   left: 0;
   width: 100%;
@@ -514,6 +514,7 @@ footer p {
   50% { transform: scale(1.08); }
   100% { transform: scale(1); }
 }
+
 
 
 
