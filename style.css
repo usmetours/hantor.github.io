@@ -374,14 +374,14 @@ footer p {
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: auto;
   max-width: auto;
-  margin: 0 auto;
+  margin: auto;
   padding: 40px 20px;
 }
 /* Carta Imagen*/
 /* Carta apartado nosotros*/
 .card-ima {
   background: #f9f9f9;
-  padding: 25%;
+  padding: auto;
   height: auto;
   width: auto;
   border-radius: 20px;
@@ -514,6 +514,7 @@ footer p {
   50% { transform: scale(1.08); }
   100% { transform: scale(1); }
 }
+
 
 
 
