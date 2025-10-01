@@ -109,8 +109,8 @@ nav ul li a:hover {
 .contenedor-servicios {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 300px;
-  max-width: 2800px;
+  gap: 50px;
+  max-width: auto ;
   margin:60px;
 }
 /*cartas apartado Servicios*/
@@ -118,11 +118,11 @@ nav ul li a:hover {
   background: #f9f9f9dd;
   padding: 25px;
   height: 700px;
-  max-width: 600px;
+  max-width: auto;
   border-radius: 20px;
   box-shadow: 120px 5px 20px rgba(0,0,0,0.1);
   transition: transformx 0.3s ease, box-shadow 0.3s ease;
-  overflow: auto  ;
+  overflow: hidden ;
 }
 
 
@@ -156,7 +156,7 @@ nav ul li a:hover {
   background: #f9f9f9dd;
   padding: 25px;
   height: 750px;
-  max-width: 700px;
+  max-width: auto;
   border-radius: 20px;
   box-shadow: 120px 5px 20px rgba(0,0,0,0.1);
   transition: transformx 0.3s ease, box-shadow 0.3s ease;
@@ -514,6 +514,7 @@ footer p {
   50% { transform: scale(1.08); }
   100% { transform: scale(1); }
 }
+
 
 
 
