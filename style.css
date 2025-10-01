@@ -441,14 +441,14 @@ footer p {
 /* Carta */
 .card-nosotros {
   background: #f9f9f9;
-  padding: 25px;
-  margin: 1px;
-  height: 950px;
-  max-width: 900px;
+  padding: auto;
+  margin-top: flex;
+  height: auto;
+  max-width: auto;
   border-radius: 20px;
   box-shadow: 120px 5px 20px rgba(0,0,0,0.1);
   transition: transform 0.5s ease, box-shadow 0.3s ease;
-  text-align: center;
+  text-align: flex;
   overflow: hidden;
 }
 
@@ -514,6 +514,7 @@ footer p {
   50% { transform: scale(1.08); }
   100% { transform: scale(1); }
 }
+
 
 
 
