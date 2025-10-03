@@ -118,6 +118,7 @@ nav ul li a:hover {
   background: #f9f9f9dd;
   padding: 25px;
   height: 700px;
+    transform: translatex(-45px );
   max-width: auto;
   border-radius: 20px;
   box-shadow: 120px 5px 20px rgba(0,0,0,0.1);
@@ -156,6 +157,7 @@ nav ul li a:hover {
   background: #f9f9f9dd;
   padding: 25px;
   height: 750px;
+    transform: translatex(-60px );
   max-width: auto;
   border-radius: 20px;
   box-shadow: 120px 5px 20px rgba(0,0,0,0.1);
@@ -382,6 +384,8 @@ footer p {
 .card-ima {
   background: #f9f9f9;
   padding: auto;
+  margin:auto ;
+    transform: translatex(-60px );
   height: auto;
   width: auto;
   border-radius: 20px;
@@ -445,6 +449,7 @@ footer p {
   margin-top: flex;
   height: auto;
   max-width: auto;
+    transform: translatex(-35px );
   border-radius: 20px;
   box-shadow: 120px 5px 20px rgba(0,0,0,0.1);
   transition: transform 0.5s ease, box-shadow 0.3s ease;
@@ -514,6 +519,11 @@ footer p {
   50% { transform: scale(1.08); }
   100% { transform: scale(1); }
 }
+
+html{
+  scroll-behavior: smooth;
+}
+
 
 
 
